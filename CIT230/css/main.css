@@ -10,11 +10,12 @@
 }
 
 body {
+    background-color: white;
     font-size: 16px;
     line-height: 32px;
     font-family: /* Ubuntu, sans-serif */
     ;
-    color: /* #xxxxxx */
+    color: black;
     ;
 }
 
@@ -29,14 +30,19 @@ h2 {
     font-size: /* x.xrem */
     ;
     text-align: center;
-    border-bottom: 1px solid #bbb;
+
+}
+
+hr {
+    width: 100%;
 }
 
 header,
 main,
 footer {
     margin: 1.25rem auto;
-    padding: .5rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
     max-width: /* xxxpx (px = pixel is a unit of measure)  */
     ;
 }
@@ -45,8 +51,7 @@ header,
 footer,
 footer a {
     text-align: center;
-    background-color: /* */
-    ;
+    background-color: green;
     color: whitesmoke;
 }
 
@@ -60,4 +65,15 @@ header img {
 footer {
     font-size: /* smaller */
     ;
+}
+
+main {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+}
+
+section {
+    width: 100%;
+
 }
