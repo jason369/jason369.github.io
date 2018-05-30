@@ -48,7 +48,7 @@ nav {
 }
 
 nav button {
-    background-color: blac;
+    background-color: ;
 }
 
 nav ul {}
@@ -67,10 +67,13 @@ nav ul li a:hover {
     background-color: white
 }
 
-main {}
+.forecast {
+    display: none;
+}
 
 main h2 {
     font-size: 2em;
+    width: 100%;
 }
 
 main figure {

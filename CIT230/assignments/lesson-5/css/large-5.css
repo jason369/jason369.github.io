@@ -1,6 +1,10 @@
 @media only screen and (min-width: 64em) {
-    ul {}
+
+    ul {
+        list-style-type: none;
+    }
     li {
+        display: inline;
         float: left;
     }
 
