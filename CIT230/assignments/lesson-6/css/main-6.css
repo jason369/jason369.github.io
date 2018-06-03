@@ -1,0 +1,104 @@
+/* Delete these CSS comments after reading. */
+
+/* This main css file contains the default rules and is geared toward the small/phone view */
+
+* {
+    box-sizing: border-box;
+}
+
+/* This wildcard applies to all elements ensuring a box layout model */
+
+body {
+    font-size: 16px;
+    font-family: sans-serif;
+    background-color: #EFA90C;
+
+}
+
+header,
+nav,
+main,
+footer {
+
+
+    max-width: 1000px;
+    margin: auto;
+
+}
+
+header {}
+
+header h1 {
+    font-family: 'Pacifico', cursive;
+    font-weight: bold;
+    font-size: 5em;
+}
+
+header img {
+    width: 55px;
+    height: 55px;
+    float: left;
+}
+
+header .subheading {
+    font-family: 'Amatic SC', cursive;
+    font-size: 4em;
+}
+
+nav ul.hide {
+    display: none;
+}
+
+nav {
+    background-color: #D3D106;
+}
+
+nav button {
+    background-color: #D3D106;
+}
+
+nav ul {}
+
+nav ul li {
+    font-family: 'Amatic SC', cursive;
+    background-color: #D3D106;
+}
+
+nav ul li a {
+    background-color: white
+}
+
+nav ul li.active a {
+    background-color: yellow;
+}
+
+nav ul li a:hover {
+    background-color: white
+}
+
+.forecast {
+    display: none;
+}
+
+main h2 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 2em;
+    width: 100%;
+}
+
+main h3 {
+    font-family: 'Amatic SC', cursive;
+
+}
+
+main figure {
+    margin: 0 0 .2rem 2%;
+    width: 96%;
+}
+
+main figure img {}
+
+footer {
+    font-family: 'Amatic SC', cursive;
+    color: darkseagreen;
+}

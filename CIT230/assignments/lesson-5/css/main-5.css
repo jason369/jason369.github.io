@@ -11,8 +11,8 @@
 body {
     font-size: 16px;
     font-family: sans-serif;
-    background: ;
-    font-style: italic;
+    background-color: #EFA90C;
+
 }
 
 header,
@@ -29,7 +29,9 @@ footer {
 header {}
 
 header h1 {
-    font-size: 3em;
+    font-family: 'Pacifico', cursive;
+    font-weight: bold;
+    font-size: 5em;
 }
 
 header img {
@@ -39,21 +41,24 @@ header img {
 }
 
 header .subheading {
-    font-family: sans-serif;
-    font-size: 1em;
+    font-family: 'Amatic SC', cursive;
+    font-size: 4em;
 }
 
 nav {
-    background-color: grey;
+    background-color: #D3D106;
 }
 
 nav button {
-    background-color: ;
+    background-color: #D3D106;
 }
 
 nav ul {}
 
-nav ul li {}
+nav ul li {
+    font-family: 'Amatic SC', cursive;
+    background-color: #D3D106;
+}
 
 nav ul li a {
     background-color: white
@@ -72,8 +77,14 @@ nav ul li a:hover {
 }
 
 main h2 {
+    font-family: 'Amatic SC', cursive;
     font-size: 2em;
     width: 100%;
+}
+
+main h3 {
+    font-family: 'Amatic SC', cursive;
+
 }
 
 main figure {
@@ -84,5 +95,6 @@ main figure {
 main figure img {}
 
 footer {
+    font-family: 'Amatic SC', cursive;
     color: darkseagreen;
 }

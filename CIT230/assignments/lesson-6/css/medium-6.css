@@ -1,0 +1,30 @@
+@media only screen and (min-width: 37.5em) {
+
+
+    h2 {
+        width: auto;
+    }
+
+    nav button {
+        display: none;
+    }
+
+
+    section.forecast {
+        display: block;
+    }
+    ul {
+        list-style-type: none;
+    }
+    li {
+        display: inline;
+        float: left;
+
+    }
+    nav {
+        height: 3em;
+    }
+
+    nav ul.hide {
+        display: block;
+    }
