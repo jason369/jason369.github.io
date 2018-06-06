@@ -13,14 +13,18 @@
     section.forecast {
         display: block;
     }
-    ul {
-        list-style-type: none;
-    }
-    li {
-        display: inline;
-        float: left;
+
+    nav ul {
+        display: flex;
+        justify-content: space-around;
 
     }
+
     nav {
-        height: 3em;
+        padding: 1em;
     }
+    nav ul a {
+        text-decoration: none;
+        color: black;
+    }
+}

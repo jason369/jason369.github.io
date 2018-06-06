@@ -10,7 +10,7 @@
 
 body {
     font-size: 16px;
-    font-family: sans-serif;
+    font-family: 'Pacifico', cursive;
     background-color: #EFA90C;
 
 }
@@ -45,36 +45,12 @@ header .subheading {
     font-size: 4em;
 }
 
-nav ul.hide {
-    display: none;
-}
 
-nav {
-    background-color: #D3D106;
-}
 
 nav button {
     background-color: #D3D106;
 }
 
-nav ul {}
-
-nav ul li {
-    font-family: 'Amatic SC', cursive;
-    background-color: #D3D106;
-}
-
-nav ul li a {
-    background-color: white
-}
-
-nav ul li.active a {
-    background-color: yellow;
-}
-
-nav ul li a:hover {
-    background-color: white
-}
 
 .forecast {
     display: none;
@@ -100,5 +76,40 @@ main figure img {}
 
 footer {
     font-family: 'Amatic SC', cursive;
-    color: darkseagreen;
+
+}
+
+
+nav ul li {
+    list-style: none;
+    display: block;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size: 1.3em;
+
+}
+
+nav ul {
+    background-color: #D3D106;
+    padding: 1em;
+
+    list-style-type: none;
+
+}
+
+main p {
+    font-family: 'Amatic SC', cursive;
+}
+
+.hide {
+    display: none;
+}
+
+.view {
+    display: block;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: black;
+
 }

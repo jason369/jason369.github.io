@@ -1,5 +1,7 @@
 function toggleHam() {
-    document.getElementById("navigation").classList.toggle("hide");
+    console.log('being called');
+
+    document.getElementById('navigation').classList.toggle('view');
 
 
 }
