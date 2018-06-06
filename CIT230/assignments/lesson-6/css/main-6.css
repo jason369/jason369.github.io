@@ -113,3 +113,22 @@ nav ul a {
     color: black;
 
 }
+
+.daylight {
+    width: 50%;
+}
+
+.breaks {
+    width: 50%;
+    height: 50%;
+    float: left;
+}
+
+.fire {
+    height: 5em;
+}
+
+.fires {
+    height: 5em;
+    padding-bottom:
+}
