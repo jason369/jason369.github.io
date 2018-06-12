@@ -127,9 +127,19 @@ nav ul a {
 .breaks {
     width: 50%;
     height: 50%;
-    float: left;
+    flex-flow: row;
 }
 
 .fire3 {
     height: 5em;
 }
+/**
+main {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200p 200px;
+    grid-gap: 150px;
+    justify-content: space-between;
+    flex-flow: row;
+}
+**/
