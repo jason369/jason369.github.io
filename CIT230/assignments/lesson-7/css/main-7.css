@@ -1,0 +1,134 @@
+/* Delete these CSS comments after reading. */
+
+/* This main css file contains the default rules and is geared toward the small/phone view */
+
+* {
+    box-sizing: border-box;
+}
+
+/* This wildcard applies to all elements ensuring a box layout model */
+
+body {
+    font-size: 16px;
+    font-family: 'Pacifico', cursive;
+    background-color: #EFA90C;
+
+}
+
+header,
+nav,
+main,
+footer {
+
+
+    max-width: 1000px;
+    margin: auto;
+
+}
+
+header {}
+
+header h1 {
+    font-family: 'Pacifico', cursive;
+    font-weight: bold;
+    font-size: 5em;
+}
+
+header img {
+    width: 55px;
+    height: 55px;
+    float: left;
+}
+
+header .subheading {
+    font-family: 'Amatic SC', cursive;
+    font-size: 4em;
+}
+
+
+
+nav button {
+    background-color: #D3D106;
+}
+
+
+.forecast {
+    display: none;
+}
+
+main h2 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 2em;
+    width: 100%;
+}
+
+main h3 {
+    font-family: 'Amatic SC', cursive;
+
+}
+
+main figure {
+    margin: 0 0 .2rem 2%;
+    width: 96%;
+}
+
+main figure img {}
+
+footer {
+    font-family: 'Amatic SC', cursive;
+
+}
+
+
+nav ul li {
+    list-style: none;
+    display: block;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size: 1.3em;
+
+}
+
+nav ul {
+    background-color: #D3D106;
+    padding: 1em;
+
+    list-style-type: none;
+
+}
+
+main p {
+    font-family: 'Amatic SC', cursive;
+}
+
+.hide {
+    display: none;
+}
+
+.view {
+    display: block;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.daylight {
+    width: 50%;
+}
+
+.breaks {
+    width: 50%;
+    height: 50%;
+    float: left;
+}
+
+.fire3 {
+    height: 50%;
+}
+
+.fires {
+    height: 5em;
+    padding-bottom:
+}

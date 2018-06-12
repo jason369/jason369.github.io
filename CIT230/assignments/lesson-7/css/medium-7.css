@@ -1,0 +1,44 @@
+@media only screen and (min-width: 37.5em) {
+
+
+    h2 {
+        width: auto;
+    }
+
+    nav button {
+        display: none;
+    }
+
+
+    section.forecast {
+        display: block;
+    }
+
+    #navigation {
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+    nav {
+        padding: 1em;
+    }
+    nav ul a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .daylight {
+        width: 80%;
+    }
+
+}
+
+main {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200p 200px;
+grid-gap: 150px;
+    justify-content: space-between;
+    flex-flow: row;
+}
