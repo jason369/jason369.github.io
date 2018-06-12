@@ -26,7 +26,12 @@ footer {
 
 }
 
-header {}
+header div {
+    display: flex;
+    align-items: center;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
 
 header h1 {
     font-family: 'Pacifico', cursive;
@@ -41,6 +46,7 @@ header img {
 }
 
 header .subheading {
+    flex-grow: 7;
     font-family: 'Amatic SC', cursive;
     font-size: 4em;
 }
@@ -125,10 +131,5 @@ nav ul a {
 }
 
 .fire3 {
-    height: 50%;
-}
-
-.fires {
     height: 5em;
-    padding-bottom:
 }
