@@ -5,6 +5,20 @@
     nav ul.hide {
         display: block;
     }
+/**
+main {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 200px 200p 200px;
+    grid-gap: 150px;
 
-
+ 
+}**/
+    
+    .gridBox {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 5px;
+}
 }

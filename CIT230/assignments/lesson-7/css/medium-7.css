@@ -33,6 +33,21 @@
         height: 50%;
     }
 
+    .gridBox {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr;
+
+    }
+
 }
 
+/**
+main {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 200px 200p;
+    grid-gap: 150px;
+    justify-content: space-between;
 
+}

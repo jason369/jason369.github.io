@@ -133,6 +133,7 @@ nav ul a {
 .fire3 {
     height: 5em;
 }
+
 /**
 main {
     display: grid;
@@ -143,3 +144,16 @@ main {
     flex-flow: row;
 }
 **/
+
+.gridBox {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 5px;
+    justify-content: center;
+}
+
+.gridItem {
+    display: grid;
+    grid-template-columns: 1fr;
+}
