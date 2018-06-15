@@ -157,3 +157,21 @@ main {
     display: grid;
     grid-template-columns: 1fr;
 }
+
+fieldset {
+    background-color: #F4D087;
+    border: thick solid #F2C364;
+    align-content: center;
+}
+
+legend {
+    background-color: #F2C364;
+    font-size: 2em;
+    padding: 10px;
+
+}
+
+.stormH1 {
+    text-align: center;
+    font-size: 3em;
+}

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main-8.css">
+    <link rel="stylesheet" href="css/medium-8.css">
+    <link rel="stylesheet" href="css/large-8.css">
+    <title>Camperather</title>
+</head>
+
+<body>
+
+    <header>
+        <div>
+            <img class="fire3" src="images/fire3.png" alt="fire">
+            <h1>Camperather</h1>
+            <img class="fire3" src="images/fire3.png" alt="fire">
+
+        </div>
+
+        <div class="subheading">Best weather</div>
+
+
+    </header>
+
+    <nav>
+        <button onclick="toggleHam()">
+           &#9776;
+       </button>
+        <ul id="navigation" class="hide">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Franklin</a></li>
+            <li><a href="#">Greenville</a></li>
+            <li><a href="#">Springfield</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="gallery-7.html">Gallery</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1 class="stormH1">Report the weather</h1>
+        <form action="thanks.html" method="get">
+            <fieldset>
+                <legend>Personal information</legend>
+                <br>
+                <div>
+                    <label for="name">
+                        Full Name:
+                        <input type="text" id="name" name="fullName" title="Minimum five characters required" pattern="[A-Z a-z]{5,}"  required>
+                    </label>
+                </div>
+
+                <br>
+                <div>
+                    <label for="email">
+                        Email:
+                        <input type="email" id="email" name="email" placeholder="name@domain.com">
+                    </label>
+                </div>
+                <br>
+
+                <div>
+                    <label for="phonenumber">
+                        Phone Number:
+                        <input type="tel" id="phonenumber" name="phoneNumb" required>
+                    </label>
+
+                </div>
+                <br>
+
+                <div>
+                    <label for="zip">Zip Code
+                        <input type="number" placeholder="*****" id="zip" name="zipcode" required>
+                    </label>
+
+                </div>
+
+                <br>
+            </fieldset>
+
+            <br>
+            <br>
+
+
+
+            <fieldset>
+                <legend>
+                    Storm Report
+                </legend>
+                <br>
+                <div>
+                    <label for="date">Storm Date
+                    <input type="date" name="date" id="date">
+</label>
+                </div>
+                <br>
+
+                <div>
+                    <label for="types">Storm Type
+                    <input list="stypes" id="types">
+                    <datalist id="stypes">
+                    <option value="Flash Flood"></option>
+                    <option value="Hail"></option>
+                    <option value="Hurricain"></option>
+                    <option value="Thunderstorm"></option>
+                    <option value="Tornado"></option></datalist>
+                    </label>
+
+                </div>
+                <br>
+                <div>
+                    <label for="rating">Storm severity (1 to 10)
+                        
+                        <input type="range" id="rating" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(thi.value)" name="severity">
+                        <span id="ratingvalue">5</span>
+                    </label>
+                </div>
+                <br>
+                <div>
+                    <label for="region">Storm Region
+    
+
+                    <select id="region">
+              <option value="selregion" selected="true" disabled="disabled" id="sregion" >Select Region</option>
+              <option value="Franklin" id="sregion">Franklin</option>
+              <option value="Greenville" id="sregion">Greenville</option>
+              <option value="Springfield" id="sregion">Springfield</option>
+          </select>
+</label>
+                </div>
+                <br>
+
+                <div>
+                    <p>Are you in danger?</p>
+                    <input type="radio" name="question" class="dangerQ">Yes
+                    <input type="radio" name="question" class="dangerQ">No
+
+                </div>
+                <br>
+
+                <div>
+                    <label for="commentBox">Additional information or Comments
+                    <br>
+                    <textarea rows="10" cols="30" placeholder="Comment..." name="commentBlock" id="commentBox"></textarea>
+                    </label>
+                </div>
+
+                <div>
+                    <input type="submit" value="Submit" name="button">
+                </div>
+            </fieldset>
+        </form>
+    </main>
+
+    <footer>
+        <section class="contact">
+            Contact information placeholder 999.999.9999 123 Main St. Anytown, US 99999 Google Map
+        </section>
+        <section class="footer-bar">&copy;2018 | All Rights Reserved | Camprather | <span id="currentdate">Current Date Placeholder</span>
+        </section>
+    </footer>
+    <script src="/CIT230/assignments/lesson-7/scripts/currentdate.js"></script>
+    <script src="/CIT230/assignments/lesson-7/scripts/hamburger.js"></script>
+    <script src="scripts/severity.js"></script>
+
+</body>
+
+</html>

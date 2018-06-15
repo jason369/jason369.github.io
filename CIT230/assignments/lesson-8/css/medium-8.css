@@ -36,7 +36,7 @@
     .gridBox {
         display: grid;
         grid-template-columns: 1fr 1fr;
-grid-template-rows: 1fr;
+        grid-template-rows: 1fr;
 
     }
 
@@ -51,3 +51,16 @@ main {
     justify-content: space-between;
 
 }
+**/
+
+fieldset {
+    width: 500px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+}
+
+
+
