@@ -53,14 +53,15 @@ main {
 }
 **/
 
-fieldset {
-    width: 500px;
-    display: flex;
-    align-items: center;
-    text-align: center;
+.stormBox {
     justify-content: center;
+    display: grid;
+
 
 }
 
+.f {
+    width: 100%;
+    text-align: center;
 
-
+}

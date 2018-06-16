@@ -43,64 +43,65 @@
 
     <main>
         <h1 class="stormH1">Report the weather</h1>
-        <form action="thanks.html" method="get">
-            <fieldset>
-                <legend>Personal information</legend>
-                <br>
-                <div>
-                    <label for="name">
+        <div class="stormBox">
+            <form action="thanks.html" method="get">
+                <fieldset class="f">
+                    <legend>Personal information</legend>
+                    <br>
+                    <div>
+                        <label for="name">
                         Full Name:
                         <input type="text" id="name" name="fullName" title="Minimum five characters required" pattern="[A-Z a-z]{5,}"  required>
                     </label>
-                </div>
+                    </div>
 
-                <br>
-                <div>
-                    <label for="email">
+                    <br>
+                    <div>
+                        <label for="email">
                         Email:
                         <input type="email" id="email" name="email" placeholder="name@domain.com">
                     </label>
-                </div>
-                <br>
+                    </div>
+                    <br>
 
-                <div>
-                    <label for="phonenumber">
+                    <div>
+                        <label for="phonenumber">
                         Phone Number:
                         <input type="tel" id="phonenumber" name="phoneNumb" required>
                     </label>
 
-                </div>
-                <br>
+                    </div>
+                    <br>
 
-                <div>
-                    <label for="zip">Zip Code
+                    <div>
+                        <label for="zip">Zip Code
                         <input type="number" placeholder="*****" id="zip" name="zipcode" required>
                     </label>
 
-                </div>
+                    </div>
+
+                    <br>
+                </fieldset>
 
                 <br>
-            </fieldset>
-
-            <br>
-            <br>
-
-
-
-            <fieldset>
-                <legend>
-                    Storm Report
-                </legend>
                 <br>
-                <div>
-                    <label for="date">Storm Date
+
+
+
+                <fieldset class="f">
+                    <legend>
+                        Storm Report
+                    </legend>
+                    <br>
+                    <div>
+                        <label for="date">Storm Date
                     <input type="date" name="date" id="date">
 </label>
-                </div>
-                <br>
+                    </div>
+                    <br>
 
-                <div>
-                    <label for="types">Storm Type
+                    <div>
+                        <label for="types">Storm Type
                     <input list="stypes" id="types">
                     <datalist id="stypes">
                     <option value="Flash Flood"></option>
@@ -110,18 +111,18 @@
                     <option value="Tornado"></option></datalist>
                     </label>
 
-                </div>
-                <br>
-                <div>
-                    <label for="rating">Storm severity (1 to 10)
+                    </div>
+                    <br>
+                    <div>
+                        <label for="rating">Storm severity (1 to 10)
                         
                         <input type="range" id="rating" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(thi.value)" name="severity">
                         <span id="ratingvalue">5</span>
                     </label>
-                </div>
-                <br>
-                <div>
-                    <label for="region">Storm Region
+                    </div>
+                    <br>
+                    <div>
+                        <label for="region">Storm Region
     
 
                     <select id="region">
@@ -131,29 +132,30 @@
               <option value="Springfield" id="sregion">Springfield</option>
           </select>
 </label>
-                </div>
-                <br>
+                    </div>
+                    <br>
 
-                <div>
-                    <p>Are you in danger?</p>
-                    <input type="radio" name="question" class="dangerQ">Yes
-                    <input type="radio" name="question" class="dangerQ">No
+                    <div>
+                        <p>Are you in danger?</p>
+                        <input type="radio" name="question" class="dangerQ">Yes
+                        <input type="radio" name="question" class="dangerQ">No
 
-                </div>
-                <br>
+                    </div>
+                    <br>
 
-                <div>
-                    <label for="commentBox">Additional information or Comments
+                    <div>
+                        <label for="commentBox">Additional information or Comments
                     <br>
                     <textarea rows="10" cols="30" placeholder="Comment..." name="commentBlock" id="commentBox"></textarea>
                     </label>
-                </div>
+                    </div>
 
-                <div>
-                    <input type="submit" value="Submit" name="button">
-                </div>
-            </fieldset>
-        </form>
+                    <div>
+                        <input type="submit" value="Submit" name="button">
+                    </div>
+                </fieldset>
+            </form>
+        </div>
     </main>
 
     <footer>
