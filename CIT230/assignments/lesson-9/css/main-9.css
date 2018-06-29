@@ -82,6 +82,7 @@ main figure img {}
 
 footer {
     font-family: 'Amatic SC', cursive;
+    text-align: center;
 
 }
 
@@ -176,6 +177,13 @@ legend {
     font-size: 3em;
 }
 
-. cities {
+.cities {
     text-align: center;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: space-between;
+
+
+    padding: 30px;
+
 }
