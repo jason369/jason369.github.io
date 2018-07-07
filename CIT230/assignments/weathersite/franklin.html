@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <title>Camperather</title>
+</head>
+
+<body>
+
+    <header>
+        <div>
+            <img class="fire3" src="images/fire3.png" alt="fire">
+            <h1>Camperather</h1>
+
+            <img class="fires3" src="images/fire3.png" alt="fire">
+        </div>
+
+        <div class="subheading">Best weather</div>
+
+
+    </header>
+
+    <nav>
+        <button onclick="toggleHam()">
+           &#9776;
+       </button>
+        <ul id="navigation" class="hide">
+            <li><a href="homepage.html">Home</a></li>
+            <li><a href="franklin.html">Franklin</a></li>
+            <li><a href="greenville.html">Greenville</a></li>
+            <li><a href="springfield.html">Springfield</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Franklin</h2>
+        <figure>
+        </figure>
+        <section class="weather-summary">
+            <h3>Weather Summary</h3>
+            <p><span id="basic"></span></p>
+            <p><span id="descrip"></span></p>
+            <img src="//openweathermap.org/img/w/01d.png" alt="current weather" id="weather_icon">
+            <p>
+                <span id="summary"></span>
+            </p>
+            <div class="highlow">
+                <p>High: <span id="max"></span>&#8457;</p>
+                <p>Low: <span id="min"></span>&#8457;</p>
+            </div>
+            <div class="current">
+                Sunny
+                <picture>
+                    <img class="daylight" src="images/alone-dawn-daylight-325520.jpg" width="150" height="150" alt="sunnyday">
+                </picture>
+            </div>
+            <div class="conditions">
+                <p> Current Temperature: <span id="tempera"></span>&#8457;</p>
+
+                <p>Wind Speed: <span id="windTemp"></span>mph</p>
+            </div>
+        </section>
+
+        <section class="forecast">
+            <h3>Ten Day Forecast</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Day 1</th>
+                        <th>Day 2</th>
+                        <th>Day 3</th>
+                        <th>Day 4</th>
+                        <th>Day 5</th>
+                        <th>Day 6</th>
+                        <th>Day 7</th>
+                        <th>Day 8</th>
+                        <th>Day 9</th>
+                        <th>Day 10</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>89&deg;F</td>
+                        <td>87&deg;F</td>
+                        <td>78&deg;F</td>
+                        <td>75&deg;F</td>
+                        <td>72&deg;F</td>
+                        <td>72&deg;F</td>
+                        <td>79&deg;F</td>
+                        <td>83&deg;F</td>
+                        <td>85&deg;F</td>
+                        <td>89&deg;F</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <article>
+            <h3>Franklin Breaks Record</h3>
+            <img class="breaks" src="images/breaks.jpg" alt="breaks">
+            <p class="town-article">
+                <p class="town-article">
+                    Lorem ipsum dolor sit amet, ne eum vivendum facilisi molestiae. Officiis pericula ei nec. Sea an vitae nullam platonem. Dico persecuti te ius, ei nec quando commodo.Lorem ipsum dolor sit amet, ne eum vivendum facilisi molestiae. Officiis pericula ei nec. Sea an vitae nullam platonem. Dico persecuti te ius, ei nec quando commodo.Lorem ipsum dolor sit amet, ne eum vivendum facilisi molestiae. Officiis pericula ei nec. Sea an vitae nullam platonem. Dico persecuti te ius, ei nec quando commodo. Lorem ipsum dolor sit amet, ne eum vivendum facilisi molestiae. Officiis pericula ei nec. Sea an vitae nullam platonem. Dico persecuti te ius, ei nec quando commodo.Lorem ipsum dolor sit amet, ne eum vivendum facilisi molestiae. Officiis pericula ei nec. Sea an vitae nullam platonem. Dico persecuti te ius, ei nec quando commodo.Lorem ipsum dolor sit amet, ne eum vivendum facilisi molestiae. Officiis pericula ei nec. Sea an vitae nullam platonem. Dico persecuti te ius, ei nec quando commodo. Lorem ipsum dolor sit amet, ne eum vivendum facilisi molestiae. Officiis pericula ei nec. Sea an vitae nullam platonem. Dico persecuti te ius, ei nec quando commodo.Lorem ipsum dolor sit amet, ne eum vivendum facilisi molestiae. Officiis pericula ei nec. Sea an vitae nullam platonem. Dico persecuti te ius, ei nec quando commodo.Lorem ipsum dolor sit amet, ne eum vivendum facilisi molestiae. Officiis pericula ei nec. Sea an vitae nullam platonem. Dico persecuti te ius, ei nec quando commodo.
+                </p>
+        </article>
+
+    </main>
+
+    <footer>
+        <section class="contact">
+            Contact information placeholder 999.999.9999 123 Main St. Anytown, US 99999 Google Map
+        </section>
+        <section class="footer-bar">&copy;2018 | All Rights Reserved | Camprather | <span id="currentdate">Current Date Placeholder</span>
+        </section>
+    </footer>
+    <script src="/CIT230/assignments/lesson-7/scripts/currentdate.js"></script>
+    <script src="/CIT230/assignments/lesson-9/scripts/hamburger.js"></script>
+    <script src="scripts/windchill.js"></script>
+    <script src="scripts/windchill.js"></script>
+    <script src="scripts/openweather.js"></script>
+
+</body>
+
+</html>
