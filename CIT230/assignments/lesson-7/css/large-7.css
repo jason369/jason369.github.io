@@ -16,13 +16,12 @@ main {
 }**/
     .gridBox {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-        grid-gap: 5px;
+        grid-template-columns: 1.5fr 1.5fr 1.5fr;
+        grid-template-rows: 1.5fr 1.5fr 1.5fr;
+        grid-gap: 20px;
     }
-}
+    .gridItem:hover {
 
-.gridItem:hover {
-
-    box-shadow: 10px 10px 10px grey;
+        box-shadow: 10px 10px 10px #e8c26f;
+    }
 }
