@@ -14,7 +14,7 @@
         display: block;
     }
 
-    #navigation {
+    #mainmenu {
         display: flex;
         justify-content: space-around;
 

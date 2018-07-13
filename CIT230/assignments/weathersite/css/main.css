@@ -103,6 +103,36 @@ nav ul {
 
 }
 
+
+.link {
+    border: none;
+    outline: none;
+    padding: 10px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+/* Style the active class, and buttons on mouse-over */
+
+.active,
+.link:hover {
+    background-color: #666;
+    color: white;
+}
+
+/*
+.active a {
+    background-color: aqua;
+}
+
+.active:hover a {
+    background-color: white;
+}
+*/
+
+nav ul li a:hover {}
+
 main p {
     font-family: 'Amatic SC', cursive;
 }
