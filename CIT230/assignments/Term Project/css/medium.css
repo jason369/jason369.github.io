@@ -1,0 +1,74 @@
+@media only screen and (min-width: 37.5em) {
+
+
+    h2 {
+        width: auto;
+    }
+
+    nav button {
+        display: none;
+    }
+
+
+    section.forecast {
+        display: block;
+    }
+
+    #mainmenu {
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+    nav {
+        padding: 1em;
+
+    }
+    nav ul a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .daylight {
+        width: 50%;
+        height: 50%;
+    }
+
+    .gridBox {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+
+    }
+    .cities {
+        text-align: center;
+        font-size: 1.3rem;
+
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+/**
+main {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 200px 200p;
+    grid-gap: 150px;
+    justify-content: space-between;
+
+}
+**/
+
+.stormBox {
+    justify-content: center;
+    display: grid;
+
+
+}
+
+.f {
+    width: 100%;
+    text-align: center;
+
+}
