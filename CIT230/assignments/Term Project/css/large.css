@@ -1,19 +1,15 @@
-@media only screen and (min-width: 64em) {
+/* large.css */
 
-
-
-    nav ul.hide {
-        display: block;
+@media only screen and (min-width: 700px) {
+    .header {
+        flex-direction: row;
     }
-    /**
-main {
-    display: grid;
-    grid-template-columns: 100px 100px 100px;
-    grid-template-rows: 200px 200p 200px;
-    grid-gap: 150px;
-
- 
-}**/
+    .logo {
+        margin-bottom: 0;
+    }
+    .site-nav {
+        margin-left: auto;
+    }
     .gridBox {
         display: grid;
         grid-template-columns: 1.5fr 1.5fr 1.5fr;
@@ -25,4 +21,52 @@ main {
         box-shadow: 10px 10px 10px #e8c26f;
     }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*---------------------------------*/
+    /*
+nav ul.hide {
+    display: block;
+*/
+    /**
+main {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 200px 200p 200px;
+    grid-gap: 150px;
+
+ 
+}**/
+    /*
+.gridBox {
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr 1.5fr;
+    grid-template-rows: 1.5fr 1.5fr 1.5fr;
+    grid-gap: 20px;
 }
+
+.gridItem:hover {
+
+    box-shadow: 10px 10px 10px #e8c26f;
+}
+
+}
+*/
