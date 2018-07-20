@@ -301,7 +301,17 @@ tr:nth-child(even) {
 }
 
 #jaden {
-    vertical-align: text-top;
+    text-align: center;
+
+}
+
+.hori {
+    display: inline-grid;
+    margin: 30px;
+}
+
+.ayy {
+    margin: none;
 }
 
 main .idt {
