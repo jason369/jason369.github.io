@@ -38,4 +38,12 @@
         width: auto;
 
     }
+    .container2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 5px;
+    justify-content: center;
+    margin: 100px;
+}
 }

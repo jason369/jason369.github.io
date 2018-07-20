@@ -19,79 +19,71 @@
     <main>
         <h1>EVENT</h1>
 
-        <h2>Cycle the Continental Divide</h2>
-        <h3>  
-South Florida CycleFest</h3>
-        <p> Sunday, November 11, 2018
- Sunrise, FL
- Charity Ride, Mountain Bike, Recreational, Tour
- 
- 
- The South Florida CycleFest is one of the most popular cycling events in the region with representation from Orlando, Miami, Fort Lauderdale, Tampa, St. Augustine, Key West, Savanah, Georgia, Finland amongst many locations people travel from for the event. 
+        <div class="even1">
+            <h2>Cycle the Continental Divide</h2>
+            <h3 class="evn">
+                South Florida CycleFest</h3>
+            <h3 class="evn">
+                Where:</h3>
+            <p>Markham Park 16001 W State Park Rd. 84 Rider, FL, 33326 United States</p>
+            <h3 class="evn">
+                When:</h3>
+            <p>Sunday, November 11, 2018 Sunrise</p>
+            <p>8am to 2pm</p>
+            <h3 class="evn">
+                Levels:</h3>
+            <p>Beginners to Advanced</p>
+            <p> FL Charity Ride, Mountain Bike, Recreational, Tour The South Florida CycleFest is one of the most popular cycling events in the region with representation from Orlando, Miami, Fort Lauderdale, Tampa, St. Augustine, Key West, Savanah, Georgia, Finland amongst many locations people travel from for the event. Save 10% with promo code "BIKERIDE" Be a part of the end of the year celebration of cycling with VeloSport Events! Distances: 31 Miles (50K) & 62 Miles (100K) </p>
 
-Save 10% with promo code "BIKERIDE" 
+            <p class="ride">Ride It Live It Love It!</p>
 
-Be a part of the end of the year celebration of cycling with VeloSport Events! Ride It Live It Love It! 
-
-Where: Markham Park 
-16001 W State Park Rd. 84 
-
-Rider Levels: Beginners to Advanced 
-
-When: November 11th, 2018 
-Hours: 8am to 2pm 
-
-Distances: 31 Miles (50K) & 62 Miles (100K)
-Start Location
-Markham Park
-16001 W State Park Rd. 84
-Sunrise, FL, 33326
-United States</p>
+            <img id="ei" alt="ei1
+            " src="images/eventimg.jpeg" width="100%" height="100%">
+            <iframe class="ifr" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14328.233289373862!2d-80.3545787!3d26.1296413!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3b1852be3f1c9de8!2sMarkham+Park+%26+Target+Range!5e0!3m2!1sen!2sus!4v1532120626271"></iframe>
 
 
-<p>join as a family</p>
-<img src="images/eventimg.png">
-        <br>
-        <h2>Registration</h2>
-        <form>
-            <fieldset class="f">
-                <legend>Personal information</legend>
-                <br>
-                <div>
-                    <label for="name">
+
+            <br>
+            <h2>Registration</h2>
+            <form class="form1">
+                <fieldset class="f">
+                    <legend>Personal information</legend>
+                    <br>
+                    <div>
+                        <label for="name">
                         Full Name:
                         <input type="text" id="name" name="fullName" title="Minimum five characters required" pattern="[A-Z a-z]{5,}"  required>
                     </label>
-                </div>
+                    </div>
 
-                <br>
-                <div>
-                    <label for="email">
+                    <br>
+                    <div>
+                        <label for="email">
                         Email:
                         <input type="email" id="email" name="email" placeholder="name@domain.com">
                     </label>
-                </div>
-                <br>
+                    </div>
+                    <br>
 
-                <div>
-                    <label for="phonenumber">
+                    <div>
+                        <label for="phonenumber">
                         Phone Number:
                         <input type="tel" id="phonenumber" name="phoneNumb" required>
                     </label>
 
-                </div>
-                <br>
+                    </div>
+                    <br>
 
-                <div>
-                    <label for="date">Date of Birth
+                    <div>
+                        <label for="date">Date of Birth
                     <input type="date" name="date" id="date">
                     </label>
-                </div>
-                <br>
+                    </div>
+                    <br>
 
-                <div>
+                    <div>
 
-                    <label for="region">Home State
+                        <label for="region">Home State
                     <select id="region">
               <option value="selregion" selected disabled="disabled" id="sregion" >Select State</option>
               <option value="AL">Alabama</option>
@@ -147,21 +139,32 @@ United States</p>
 	<option value="WY">Wyoming</option>
           </select>
 </label>
-                </div>
+                    </div>
 
-                <br>
-                <div>
-                    <label for="commentBox">Additional information or Comments
                     <br>
+                    <div>
+                        <label for="commentBox1">Promo Code
+                    <br>
+                    <textarea rows="1" cols="5"  name="commentBlock" id="commentBox"></textarea>
+                    </label>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="commentBox">Additional information or Comments
+                    <br>
+                    
                     <textarea rows="10" cols="30" placeholder="Comment..." name="commentBlock" id="commentBox"></textarea>
                     </label>
-                </div>
+                    </div>
+                    <br>
 
-                <div>
-                    <input type="submit" value="Submit" name="button">
-                </div>
-            </fieldset>
-        </form>
+                    <br>
+                    <div>
+                        <input type="submit" value="Submit" name="button">
+                    </div>
+                </fieldset>
+            </form>
+        </div>
     </main>
     <footer w3-include-html='footer.html'>
 

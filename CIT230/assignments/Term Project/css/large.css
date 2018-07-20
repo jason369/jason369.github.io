@@ -33,13 +33,19 @@
     .box1 {
         display: grid;
         grid-template-columns: 1.5fr 1.5fr;
-        grid-template-rows: 1.5fr 1.5fr;
-
+        grid-template-rows: 1.5fr;
         grid-gap: 70px;
         margin-bottom: 10%;
 
 
+
     }
+/*
+    .item2 {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+*/
     /*-----------------------------*/
     .box2 {
         display: grid;
@@ -63,6 +69,39 @@
 
     }
 
+
+    .container2 {
+        display: grid;
+        grid-template-columns: 1.5fr 1.5fr 1.5fr;
+        grid-template-rows: 1.5fr 1.5fr 1.5fr;
+        grid-gap: 20px;
+    }
+    
+    main .idt {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 80%;
+    height: 900px;
+}
+
+
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.letters {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 1000;
+    font-size: 5rem;
+}
     /*
 nav ul.hide {
     display: block;
