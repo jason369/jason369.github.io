@@ -1,0 +1,48 @@
+{
+    "Services": [
+        {
+            "title": "Tune-Ups/Builds",
+            "servicename1": "Basic Tune-Up",
+            "price1": 39.99,
+            "servicename2": "Premium Tune-Up",
+            "price2": 69.99,
+            "servicename3": "Drivetrain Tune-Up",
+            "price3": 24.99,
+            "servicename4": "Bike Build",
+            "price4": 39.99
+    },
+        {
+            "title": "Brakes",
+            "servicename5": "Adjust/Install Rim Brake Pads",
+            "price5": 9.99,
+            "servicename6": "Adjust/Install Disc Brake Pads",
+            "price6": 14.99,
+            "servicename7": "Install Hydraulic Disc Brakes",
+            "price7": 24.99,
+            "servicename8": "Install MechanicalDisc Brakes",
+            "price8": 14.99
+    },
+        {
+            "title": "Shifter/Derailleur",
+            "servicename9": "Adjust Derailleur (Front or Rear)",
+            "price9": 14.99,
+            "servicename10": "Install Front Derailleur",
+            "price10": 6.99,
+            "servicename11": "Install Rear Derailleur",
+            "price11": 11.99,
+            "servicename12": "Install Shifter (Each)",
+            "price12": 12.99
+    },
+        {
+            "title": "Installs",
+            "servicename13": "Rear Rack",
+            "price13": 4.99,
+            "servicename14": "Saddle",
+            "price14": 1.99,
+            "servicename15": "Training Wheels",
+            "price15": 12.99,
+            "servicename16": "Water Bottle Cage",
+            "price16": 1.99
+    }
+  ]
+}

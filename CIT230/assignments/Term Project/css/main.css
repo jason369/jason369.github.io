@@ -22,10 +22,33 @@ footer {
 }
 */
 
+.resizes {
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+}
+
 .active,
 .link:hover {
 
     text-decoration: underline;
+}
+
+.serh {
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.liimg {
+    height: 1em;
+    width: 1em;
+    margin: 0;
+    flex: auto;
+}
+
+ul {
+    list-style-image: url('cleanLogo.png')
 }
 
 /*-------------------------------*/
@@ -55,12 +78,22 @@ a {
     margin: 0 auto;
 }
 
+header img {
+
+    height: 2em;
+    width: 2em;
+
+
+
+}
+
 .logo {
     margin-bottom: 1em;
     align-self: center;
     color: seagreen;
     font-size: 2em
 }
+
 
 .site-nav ul {
     list-style: none;
@@ -97,5 +130,180 @@ a {
 }
 
 
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    border-bottom: 3px solid black;
+}
+
+main {
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+#accordion3 {
+    text-align: center;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+}
 
 /*-------------------------------*/
+
+/* Style inputs with type="text", select elements and textareas */
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    /* Full width */
+    padding: 12px;
+    /* Some padding */
+    border: 1px solid #ccc;
+    /* Gray border */
+    border-radius: 4px;
+    /* Rounded borders */
+    box-sizing: border-box;
+    /* Make sure that padding and width stays in place */
+    margin-top: 6px;
+    /* Add a top margin */
+    margin-bottom: 16px;
+    /* Bottom margin */
+    resize: vertical/* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+
+input[type=submit] {
+    background-color: floralwhite;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+
+input[type=submit]:hover {
+    background-color: aqua;
+}
+
+/* Add a background color and some padding around the form */
+
+#con {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+
+
+}
+
+#if {
+
+    width: 100%;
+    height: 100%;
+    /* Full width */
+    padding: 12px;
+    /* Some padding */
+    border: 1px solid #ccc;
+    /* Gray border */
+    border-radius: 4px;
+    /* Rounded borders */
+    box-sizing: border-box;
+    /* Make sure that padding and width stays in place */
+    margin-top: 6px;
+    /* Add a top margin */
+    margin-bottom: 16px;
+    /* Bottom margin */
+    resize: vertical/* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/*-------------------------------------*/
+
+picture {
+    height: 50%;
+    width: 50%;
+}
+
+/*-------------------------------------*/
+
+.item2 {
+    border-top-style: dotted;
+    border-right-style: solid;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+    padding: 50px;
+    text-align: center;
+}
+
+/*-------------------------------------*/
+
+form {
+
+    height: auto;
+    display: inline-block;
+    text-align: center;
+
+}
+
+/*-------------------------------------*/
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+
+
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 8px;
+    padding-left: 8px;
+
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.box2 {
+    grid-gap: 70px;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%
+}
+
+.box1 {
+
+    margin-bottom: 10%;
+
+}
+
+.box {
+    margin-bottom: 50px;
+}
+
+.icon1 {
+    width: 1rem;
+    height: 30%
+}
+
+#jaden {
+    vertical-align: text-top;
+}
+
+main.idt {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 5%;
+}

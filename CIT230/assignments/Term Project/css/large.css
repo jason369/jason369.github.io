@@ -10,38 +10,59 @@
     .site-nav {
         margin-left: auto;
     }
-    .gridBox {
+
+
+    #accordion3 {
+        text-align: center;
+
+        margin-left: 10rem;
+        margin-right: 10rem;
+        margin-bottom: 10rem;
+    }
+    /*-----------------------------*/
+    .box {
         display: grid;
-        grid-template-columns: 1.5fr 1.5fr 1.5fr;
-        grid-template-rows: 1.5fr 1.5fr 1.5fr;
-        grid-gap: 20px;
-    }
-    .gridItem:hover {
+        grid-template-columns: 1.5fr 1.5fr;
+        grid-template-rows: 1.5fr;
+        grid-gap: 70px;
 
-        box-shadow: 10px 10px 10px #e8c26f;
     }
 
 
+    /*-----------------------------*/
+    .box1 {
+        display: grid;
+        grid-template-columns: 1.5fr 1.5fr;
+        grid-template-rows: 1.5fr 1.5fr;
+
+        grid-gap: 70px;
+        margin-bottom: 10%;
+
+
+    }
+    /*-----------------------------*/
+    .box2 {
+        display: grid;
+        grid-template-columns: 1.5fr 1.5fr;
+        grid-template-rows: 1.5fr 1.5fr;
+
+        grid-gap: 70px;
+        margin-bottom: 10%;
+        margin-left: 10%;
+        margin-right: 10%
+    }
 
 
 
+    header img {
+
+        height: 1em;
+        width: 1em;
+        margin-right: 0.3em;
 
 
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-    /*---------------------------------*/
     /*
 nav ul.hide {
     display: block;

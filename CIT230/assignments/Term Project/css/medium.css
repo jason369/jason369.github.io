@@ -18,4 +18,24 @@
         grid-template-rows: 1fr;
 
     }
+    #accordion3 {
+        text-align: center;
+        margin-top: 5rem;
+        margin-left: 5rem;
+        margin-right: 5rem;
+        margin-bottom: 5rem;
+    }
+    .box2 {
+        display: grid;
+        grid-template-columns: 1.5fr 1.5fr;
+        grid-template-rows: 1.5fr 1.5fr;
+        grid-gap: 70px;
+        margin-bottom: 10%;
+        margin-left: 10%;
+        margin-right: 10%
+    }
+    .box1 {
+        width: auto;
+
+    }
 }
