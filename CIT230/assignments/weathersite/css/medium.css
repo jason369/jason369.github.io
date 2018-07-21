@@ -12,6 +12,16 @@
 
     section.forecast {
         display: block;
+        text-align: center;
+
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
+        /*
+        display: table;
+        border-collapse: separate;
+        border-spacing: 2px;
+*/
     }
 
     #mainmenu {

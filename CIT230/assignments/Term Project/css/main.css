@@ -5,14 +5,14 @@
 #mainmenu {
     list-style-type: none;
     padding: 0;
-    margin: 0
+    margin: 0;
 }
 
 footer {
 
     text-align: center;
     padding: 2em;
-    background: floralwhite
+    background: floralwhite;
 }
 
 
@@ -50,29 +50,29 @@ footer {
 }
 
 ul {
-    list-style-image: url('cleanLogo.png')
+    list-style-image: url('cleanLogo.png');
 }
 
 /*-------------------------------*/
 
 body {
     margin: 0;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
 }
 
 a {
-    text-decoration: none
+    text-decoration: none;
 }
 
 .header,
 .site-nav ul {
     display: flex;
-    flex-direction: column
+    flex-direction: column;
 }
 
 .header-wrapper {
     padding: 2em;
-    background: floralwhite
+    background: floralwhite;
 }
 
 .header {
@@ -93,14 +93,14 @@ header img {
     margin-bottom: 1em;
     align-self: center;
     color: seagreen;
-    font-size: 2em
+    font-size: 2em;
 }
 
 
 .site-nav ul {
     list-style: none;
     padding: 0;
-    margin: 0
+    margin: 0;
 }
 
 .site-nav a {
@@ -115,7 +115,7 @@ header img {
 
 .site-content {
     min-height: 600px;
-    background: burlywood
+    background: burlywood;
 }
 
 .gridBox {
@@ -173,7 +173,8 @@ textarea {
     /* Add a top margin */
     margin-bottom: 16px;
     /* Bottom margin */
-    resize: vertical/* Allow the user to vertically resize the textarea (not horizontally) */
+    resize: vertical;
+    /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
 /* Style the submit button with a specific background color etc */
@@ -220,7 +221,8 @@ input[type=submit]:hover {
     /* Add a top margin */
     margin-bottom: 16px;
     /* Bottom margin */
-    resize: vertical/* Allow the user to vertically resize the textarea (not horizontally) */
+    resize: vertical;
+    /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
 /*-------------------------------------*/
@@ -249,7 +251,7 @@ picture {
     display: inline-block;
     text-align: center;
     margin-bottom: 50px;
-    width: 60%
+    width: 60%;
 }
 
 
@@ -310,9 +312,7 @@ tr:nth-child(even) {
     margin: 30px;
 }
 
-.ayy {
-    margin: none;
-}
+.ayy {}
 
 main .idt {
     display: block;
@@ -336,7 +336,7 @@ main .idt {
     top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-weight: 1000;
+    font-weight: bold;
     font-size: 5rem;
 }
 
@@ -396,4 +396,6 @@ main .idt {
 
 #ei {
     margin-bottom: 50px;
+    width: 100%;
+    height: 100%
 }

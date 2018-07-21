@@ -106,14 +106,15 @@
                     <div>
                         <label for="rating">Storm severity (1 to 10)
                         
-                        <input type="range" id="rating" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(thi.value)" name="severity">
+                        <input type="range" id="rating" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)" name="severity">
                         <span id="ratingvalue">5</span>
                     </label>
                     </div>
                     <br>
                     <div>
-
                         <label for="region">Storm Region
+    
+
                     <select id="region">
               <option value="selregion" selected disabled="disabled" id="sregion" >Select Region</option>
               <option value="Franklin" id="sregion1">Franklin</option>
@@ -147,6 +148,8 @@
         </div>
     </main>
 
+
+
     <footer w3-include-html='includes/footer.html'>
 
     </footer>
@@ -154,7 +157,7 @@
     <script src="scripts/include.js"></script>
     <script src="scripts/modularize.js"></script>
     <script src="scripts/wayfinding.js"></script>
-
+    <script src="scripts/severity.js"></script>
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/windchill.js"></script>
     <script src="scripts/openweather_franklin.js"></script>

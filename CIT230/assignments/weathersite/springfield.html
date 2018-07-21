@@ -33,8 +33,12 @@
 
     <main>
         <h2>Springfield</h2>
-        <figure>
-        </figure>
+        <picture>
+            <source srcset="images/small.jpeg" media="(max-width:600px)">
+            <source srcset="images/medium.jpeg" media="(max-width:1024px)">
+            <source srcset="images/large.jpeg">
+            <img src="images/large.jpeg" id="mimage" alt="maimage">
+        </picture>
         <section class="weather-summary">
             <h3>Weather Summary</h3>
             <p><span id="basic2"></span></p>
@@ -47,12 +51,7 @@
                 <p>High: <span id="max2"></span>&#8457;</p>
                 <p>Low: <span id="min2"></span>&#8457;</p>
             </div>
-            <div class="current">
-                Sunny
-                <picture>
-                    <img class="daylight" src="images/alone-dawn-daylight-325520.jpg" width="150" height="150" alt="sunnyday">
-                </picture>
-            </div>
+
             <div class="conditions">
                 <p> Current Temperature: <span id="tempera2"></span>&#8457;</p>
 
@@ -61,37 +60,41 @@
         </section>
 
         <section class="forecast">
-            <h3>Ten Day Forecast</h3>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Day 1</th>
-                        <th>Day 2</th>
-                        <th>Day 3</th>
-                        <th>Day 4</th>
-                        <th>Day 5</th>
-                        <th>Day 6</th>
-                        <th>Day 7</th>
-                        <th>Day 8</th>
-                        <th>Day 9</th>
-                        <th>Day 10</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>89&deg;F</td>
-                        <td>87&deg;F</td>
-                        <td>78&deg;F</td>
-                        <td>75&deg;F</td>
-                        <td>72&deg;F</td>
-                        <td>72&deg;F</td>
-                        <td>79&deg;F</td>
-                        <td>83&deg;F</td>
-                        <td>85&deg;F</td>
-                        <td>89&deg;F</td>
-                    </tr>
-                </tbody>
-            </table>
+            <div>
+                <h3>Ten Day Forecast</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Day 1</th>
+                            <th>Day 2</th>
+                            <th>Day 3</th>
+                            <th>Day 4</th>
+                            <th>Day 5</th>
+                            <th>Day 6</th>
+                            <th>Day 7</th>
+                            <th>Day 8</th>
+                            <th>Day 9</th>
+                            <th>Day 10</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <!--
+                            <td>89&deg;F</td>
+                            <td>87&deg;F</td>
+                            <td>78&deg;F</td>
+                            <td>75&deg;F</td>
+                            <td>72&deg;F</td>
+                            <td>72&deg;F</td>
+                            <td>79&deg;F</td>
+                            <td>83&deg;F</td>
+                            <td>85&deg;F</td>
+                            <td>89&deg;F</td>
+                        </tr>
+-->
+                    </tbody>
+                </table>
+            </div>
         </section>
 
         <article>

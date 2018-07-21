@@ -8,9 +8,10 @@
     .site-nav ul {
         flex-direction: row;
         justify-content: space-between;
-        a {
-            border-bottom: 0;
-        }
+
+    }
+    a {
+        border-bottom: 0;
     }
     .gridBox {
         display: grid;
@@ -39,11 +40,11 @@
 
     }
     .container2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    grid-gap: 5px;
-    justify-content: center;
-    margin: 100px;
-}
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-gap: 5px;
+        justify-content: center;
+        margin: 100px;
+    }
 }

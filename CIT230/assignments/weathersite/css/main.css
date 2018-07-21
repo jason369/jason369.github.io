@@ -20,9 +20,10 @@ nav,
 main,
 footer {
 
-
+    text-align: center;
     max-width: 1000px;
     margin: auto;
+    margin-bottom: 80px;
 
 }
 
@@ -60,6 +61,8 @@ nav button {
 
 .forecast {
     display: none;
+
+
 }
 
 main h2 {
@@ -78,7 +81,7 @@ main figure {
     width: 96%;
 }
 
-main figure img {}
+
 
 footer {
     font-family: 'Amatic SC', cursive;
@@ -132,6 +135,7 @@ nav ul li a:hover {}
 
 main p {
     font-family: 'Amatic SC', cursive;
+
 }
 
 .hide {
@@ -213,4 +217,14 @@ legend {
 
     padding: 30px;
 
+}
+
+footer {
+    background-color: #D3D106;
+    text-align: center;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 80px;
+    padding: 1em;
+    width: 95%
 }

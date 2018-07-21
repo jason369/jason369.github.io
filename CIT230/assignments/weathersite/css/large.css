@@ -17,12 +17,15 @@ main {
     .gridBox {
         display: grid;
         grid-template-columns: 1.5fr 1.5fr 1.5fr;
-        grid-template-rows: 1.5fr 1.5fr 1.5fr;
+        grid-template-rows: 1.5fr 1.5fr;
         grid-gap: 20px;
     }
     .gridItem:hover {
 
         box-shadow: 10px 10px 10px #e8c26f;
+    }
+    main {
+        margin-bottom: 80px;
     }
 
 }

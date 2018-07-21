@@ -24,5 +24,27 @@ weatherObject.onload = function () {
     document.getElementById('weather_icon').src = icon_path;
 
 
+    var forecast = new XMLHttpRequest();
+    forecast.responseType = 'json';
+    forecast.open('GET', 'https://api.openweathermap.org/data/2.5/forecast?zip=27834,us&appid=799ce3b0d9d3990693365332738da1a8&units=imperial', true);
+    forecast.send();
+
+    forecast.onload = function () {
+        var forecastdata = forecast.response;
+        console.log(forecastdata);
+
+        var mytbody = document.querySelector('tbody');
+        var mytr = document.createElement('tr');
+
+        for (i = 0; i < 10; i++) //forecastdata.list.length; i++) 
+        {
+            var mytd = document.createElement('td');
+            mytd.innerHTML = forecastdata.list[i].main.temp + '&deg;F'
+            mytr.appendChild(mytd);
+
+            mytbody.appendChild(mytr);
+        }
+        setWindChill();
+    }
 
 }
