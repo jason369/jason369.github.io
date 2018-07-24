@@ -44,11 +44,12 @@
 
     <main>
         <h2>Franklin</h2>
-        <figure>
-            <img src="images/small.jpeg" srcset="images/small.jpeg 400w,
-        images/medium.jpeg 800w,
-        images/large.jpeg 1200w" alt="sizes">
-        </figure>
+        <picture>
+            <source srcset="images/small.jpeg" media="(max-width:600px)">
+            <source srcset="images/medium.jpeg" media="(max-width:1024px)">
+            <source srcset="images/large.jpeg">
+            <img src="images/large.jpeg" id="mimage" alt="maimage">
+        </picture>
         <section class="weather-summary">
             <h3>Weather Summary</h3>
             <div class="highlow">
